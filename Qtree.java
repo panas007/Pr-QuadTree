@@ -44,8 +44,8 @@ public class Qtree {
 	/**
 	 * Recursion method for inserting nodes in the pr quad-tree
 	 * First check if x,y values is in the boundary of the current node and the current node is a leaf
-	 * if its true then insert the node,else devide the rectangle in SW,SE,NW,NE move the value of the node in the correct subtree  
-	 * and move in the next recursionfor inserting
+	 * if its true then insert the node,else devide the rectangle in SW, SE, NW, NE move the value of the node in the correct subtree  
+	 * and move in the next recursion for inserting
 	 * 
 	 * 
 	 * @param node The node to be iserted
@@ -128,7 +128,7 @@ public class Qtree {
 	/**
 	 * Check if node is leaf or inner node.
 	 * @param node
-	 * @return true if node is leaf,false if node is inner node.
+	 * @return true if node is leaf, if false node is inner node.
 	 */
 	public boolean isLeaf(Qnode node)
 	{
